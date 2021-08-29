@@ -24,6 +24,7 @@ class Result {
         if(n<=1)
             return n;
         else{
+            //fibonnaci recursion
             return (fib(n-1)+fib(n-2));
         }    
 
